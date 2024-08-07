@@ -63,7 +63,7 @@ function Header() {
   return (
     <header>
       <nav>
-        <img src="image.png" alt="" width="20%" />
+        <img src="image.png" className="nav-logo" />
         <ul className="nav-items">
           <li>Pricing</li>
           <li>About</li>
@@ -76,7 +76,7 @@ function Header() {
 
 function Main() {
   return (
-    <div>
+    <div className="main-content">
       <h1>The Reason why i want to be frontend developer</h1>
       <ol>
         <li>
