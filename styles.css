@@ -2,3 +2,20 @@ body {
   margin: 0;
   padding: 0;
 }
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1em;
+}
+
+ul {
+  padding: 0;
+  gap: 3em;
+}
+
+.nav-items {
+  display: flex;
+  list-style: none;
+}
